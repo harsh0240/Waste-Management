@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.harsh24.wastemanagement.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@drawable/de"
+        android:backgroundTint="#a5d6a7"
+        android:backgroundTintMode="screen"
+        android:paddingLeft="60dp"
+        android:paddingRight="60dp">
+
+        <customfonts.MyTextView
+            android:id="@+id/citi_bt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="48dp"
+            android:fontFamily="sans-serif"
+            android:layout_gravity="center"
+            android:background="@drawable/button_layout1"
+            android:padding="16dp"
+            android:text="I'm a Citizen..."
+            android:layout_marginBottom="32dp"
+            android:textColor="@android:color/white" />
+
+        <customfonts.MyTextView
+            android:id="@+id/wm_bt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:textSize="32dp"
+            android:layout_gravity="center"
+            android:text="...I'm a Waste Collector"
+            android:background="@drawable/button_layout2"
+            android:padding="5dp"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

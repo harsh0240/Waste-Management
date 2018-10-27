@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "371791478185",
+    "firebase_url": "https://waste-management-bf9de.firebaseio.com",
+    "project_id": "waste-management-bf9de",
+    "storage_bucket": "waste-management-bf9de.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:371791478185:android:876e497893fcd8ba",
+        "android_client_info": {
+          "package_name": "com.example.harsh24.wastemanagement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "371791478185-d0j6p997b5cqubr2jhg3kkbke2p1ka9q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuhO4A1P3m3pSbybm_H8-PFo0NVOmo-xw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
